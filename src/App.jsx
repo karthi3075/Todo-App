@@ -1,7 +1,7 @@
-// import Todo from "./components/Todo";
+import Todo from "./components/Todo";
 
 // import Api from "./components/Api";
-import Counter from "./components/Counter";
+// import Counter from "./components/Counter";
 // import AdminLogin from "./pages/AdminLogin";
 // import ForgetPassword from "./pages/ForgetPassword";
 // import UserLogin from "./pages/UserLogin";
@@ -10,14 +10,14 @@ import Counter from "./components/Counter";
 function App() {
       return(
         <div>
-            {/* <Todo/> */}
+            <Todo/>
             {/* <UserLogin/> */}
             {/* <AdminLogin/> */}
             {/* <UserRegistration/> */}
             {/* <ForgetPassword/> */}
             {/* <Api/> */}
             {/* <Counter/> */}
-            <Counter/>
+            {/* <Counter/> */}
         </div>
       );
 }
